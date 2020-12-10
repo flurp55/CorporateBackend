@@ -1,0 +1,24 @@
+{
+  "name": "corporatebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Dave Rushton <=dave.rushton@newulife.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.3.0",
+    "mssql": "^6.2.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "winston": "^3.3.3",
+    "winston-sql-transport": "^1.0.0"
+  }
+}
